@@ -1,0 +1,11 @@
+name: primeiro-wf-teste
+on: [workflow_dispatch]
+jobs: 
+  primeiro-job:
+    name: primeiro-job-teste
+    runs-on: ubuntu-latest
+    steps:
+      - name: Escrevendo 'Hello, World!'
+        run: echo 'Hello, World!'
+      - name: escrita-2
+        run: echo 'Bora pro próximo'
